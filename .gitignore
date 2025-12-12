@@ -1,5 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+# ------------------              REACT            ----------------------
 # dependencies
 /node_modules
 /.pnp
@@ -34,3 +34,49 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# --------------             Python          -------------------
+# --- Bytecode ---
+__pycache__/
+*.py[cod]
+*.pyo
+
+# --- Virtual Environments ---
+venv/
+env/
+.env/
+.venv/
+
+# --- Package / Build Artifacts ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Python Tools ---
+.pytest_cache/
+coverage.xml
+htmlcov/
+.cache/
+.mypy_cache/
+.dmypy.json
+ruff_cache/
+.ipynb_checkpoints/
+
+# --- Environment / Secrets ---
+*.env
+*.secrets
+*.key
+*.pem
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+logs/
