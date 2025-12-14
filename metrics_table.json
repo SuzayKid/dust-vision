@@ -1,0 +1,7 @@
+{
+    "model": "RandomForest_Fusion",
+    "horizon_minutes": 30,
+    "mae": 11.39,
+    "rmse": 29.94,
+    "features_used": 23
+}
